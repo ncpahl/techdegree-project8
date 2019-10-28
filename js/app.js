@@ -10,7 +10,7 @@ fetch(peopleUrl)
   .then(response => response.json())
   .then(response => response.results)
   .then(generateHTML)
-  .catch(error => console.log(error))
+  .catch(error => console.log(error));
 
   // fetch(peopleUrl)
   //   .then(response => response.json())
